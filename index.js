@@ -1,1 +1,153 @@
-const _0x12eb39=_0x3449;function _0x3449(_0x40cd10,_0x19851e){const _0x25df25=_0x25df();return _0x3449=function(_0x3449d4,_0x10864f){_0x3449d4=_0x3449d4-0x70;let _0x24c910=_0x25df25[_0x3449d4];return _0x24c910;},_0x3449(_0x40cd10,_0x19851e);}(function(_0x54295e,_0x10a33a){const _0x552d9b=_0x3449,_0x104b26=_0x54295e();while(!![]){try{const _0xf9b5cd=-parseInt(_0x552d9b(0x99))/0x1+-parseInt(_0x552d9b(0x84))/0x2*(-parseInt(_0x552d9b(0xa8))/0x3)+parseInt(_0x552d9b(0xc2))/0x4+parseInt(_0x552d9b(0xb2))/0x5*(parseInt(_0x552d9b(0x74))/0x6)+parseInt(_0x552d9b(0xad))/0x7*(parseInt(_0x552d9b(0xab))/0x8)+-parseInt(_0x552d9b(0x88))/0x9*(parseInt(_0x552d9b(0xae))/0xa)+parseInt(_0x552d9b(0xb3))/0xb*(-parseInt(_0x552d9b(0x8e))/0xc);if(_0xf9b5cd===_0x10a33a)break;else _0x104b26['push'](_0x104b26['shift']());}catch(_0x290524){_0x104b26['push'](_0x104b26['shift']());}}}(_0x25df,0x85300));const Discord=require(_0x12eb39(0xa5)),client=new Discord[(_0x12eb39(0xb1))]({'intents':0x7fff}),{Player,QueryType,QueueRepeatMode}=require('discord-player'),express=require(_0x12eb39(0x8f)),app=express();app[_0x12eb39(0x8b)]('/',(_0x1e14c5,_0x4269f0)=>{const _0x3f9495=_0x12eb39;_0x4269f0[_0x3f9495(0xa2)](0xc8);}),app[_0x12eb39(0xb5)](0x1f90);function _0x25df(){const _0x1f4e6d=['username','36dqbAgF','express','stop','Live','catch','has','destroy','connect','❌\x20|\x20No\x20music\x20is\x20being\x20played!','join','You\x20Don\x27t\x20Have\x20Permission.','459997eDgNSl','multipleResolves','setActivity','play','slice','WATCHING','Infinity','replace','🎵\x20|\x20**','sendStatus','user','getQueue','discord.js','Reason:\x20','guild','3GuKHCD','unhandledRejection','**!','2628952XETQTc','member','14VqIhdJ','6927950WkDRWW','voice','Unhandled\x20Rejection\x20at:\x20','Client','120325cWSyVZ','936331YhXkUG','uncaughtException','listen','getPlayerTimestamp','**!\x20(`','set-avatar','react','createQueue','log','setUsername','createProgressBar','Loading\x20\x20**','startsWith','split','messageCreate','4078528sUdrgV','Now\x20Playing','No\x20music\x20is\x20being\x20played!','send','dnd','playing','30EbEMOi','setAvatar','Origin:\x20','setStatus','\x20◉\x20LIVE','ready','progress','Caught\x20exception:\x20','search','**__DONE__**','𝑲𝒆𝒆𝒑\x20𝑸𝒖𝒊𝒆𝒕','content','reply','OTc2MDk4MTIzMDk1MDk3Mzc0.GXlg9x.ZIoUrNvk2BGcbCxnZ5jjKi_CN-1PqJLisvMzmI','title','ADMINISTRATOR','312992KVjxQM','connection','__DONE__','not\x20found!','9AuMvPc','permissions','channel','get','tracks'];_0x25df=function(){return _0x1f4e6d;};return _0x25df();}const prefix='N';client['on'](_0x12eb39(0x79),()=>{const _0x3b49bb=_0x12eb39;console[_0x3b49bb(0xbb)](client['user'][_0x3b49bb(0x8d)]),client[_0x3b49bb(0xa3)][_0x3b49bb(0x9b)](_0x3b49bb(0x7e),{'type':_0x3b49bb(0x9e)}),client['user'][_0x3b49bb(0x77)](_0x3b49bb(0x72));}),player=new Player(client),client['on'](_0x12eb39(0xc1),async _0x17ef42=>{const _0xba6567=_0x12eb39;if(_0x17ef42[_0xba6567(0x7f)][_0xba6567(0xbf)](prefix+_0xba6567(0x9c)||prefix+'p')){let _0xa50f89=_0x17ef42[_0xba6567(0x7f)][_0xba6567(0xc0)]('\x20')[_0xba6567(0x9d)](0x1)[_0xba6567(0x97)]('\x20');console[_0xba6567(0xbb)](_0xa50f89);const _0x309cba=player[_0xba6567(0xba)](_0x17ef42[_0xba6567(0xa7)],{'metadata':{'channel':_0x17ef42[_0xba6567(0x8a)]}});try{if(!_0x309cba[_0xba6567(0x85)])await _0x309cba[_0xba6567(0x95)](_0x17ef42[_0xba6567(0xac)][_0xba6567(0xaf)][_0xba6567(0x8a)]);}catch{_0x309cba[_0xba6567(0x94)]();}const _0x5c7d2a=await player[_0xba6567(0x7c)](_0xa50f89,{'requestedBy':_0x17ef42['user']})['then'](_0x296335=>_0x296335[_0xba6567(0x8c)][0x0]);if(!_0x5c7d2a)return await _0x17ef42[_0xba6567(0x80)]({'content':_0xba6567(0x87)});return _0x309cba[_0xba6567(0x9c)](_0x5c7d2a),console['log'](_0x5c7d2a),await _0x17ef42[_0xba6567(0x80)]({'content':_0xba6567(0xbe)+_0x5c7d2a[_0xba6567(0x82)]+_0xba6567(0xaa)});}}),client['on'](_0x12eb39(0xc1),async _0x3c5ce6=>{const _0x5db92b=_0x12eb39;if(_0x3c5ce6['content'][_0x5db92b(0xbf)](prefix+_0x5db92b(0x90)||prefix+'st')){const _0x6bba88=player['getQueue'](_0x3c5ce6[_0x5db92b(0xa7)]['id']);if(!_0x6bba88||!_0x6bba88[_0x5db92b(0x73)])return _0x3c5ce6[_0x5db92b(0x80)]({'content':_0x5db92b(0x70)});_0x6bba88[_0x5db92b(0x94)](),_0x3c5ce6[_0x5db92b(0x80)](_0x5db92b(0x7d));}}),client['on'](_0x12eb39(0xc1),async _0x389b88=>{const _0x27087b=_0x12eb39;if(_0x389b88[_0x27087b(0x7f)][_0x27087b(0xbf)](prefix+'np'||prefix+'nowplaying')){const _0x148bec=player[_0x27087b(0xa4)](_0x389b88['guild']['id']);if(!_0x148bec||!_0x148bec[_0x27087b(0x73)])return _0x389b88[_0x27087b(0x71)]({'content':_0x27087b(0x96)});const _0x5bc138=_0x148bec[_0x27087b(0xbd)](),_0x5a1684=_0x148bec[_0x27087b(0xb6)]();_0x389b88[_0x27087b(0x80)]({'embeds':[{'title':_0x27087b(0xc3),'description':_0x27087b(0xa1)+_0x148bec['current'][_0x27087b(0x82)]+_0x27087b(0xb7)+(_0x5a1684['progress']==_0x27087b(0x9f)?_0x27087b(0x91):_0x5a1684[_0x27087b(0x7a)]+'%')+'`)','fields':[{'name':'​','value':_0x5bc138[_0x27087b(0xa0)](/ 0:00/g,_0x27087b(0x78))}],'color':0xffffff}]});}}),client['on'](_0x12eb39(0xc1),async _0xa2ca30=>{const _0x28b830=_0x12eb39;if(_0xa2ca30['content']['startsWith'](prefix+'set-name')){if(!_0xa2ca30[_0x28b830(0xac)]['permissions'][_0x28b830(0x93)](_0x28b830(0x83)))return _0xa2ca30['reply'](_0x28b830(0x98));let _0x9fdad5=_0xa2ca30[_0x28b830(0x7f)][_0x28b830(0xc0)]('\x20')[_0x28b830(0x97)]('\x20');if(!_0x9fdad5)return _0xa2ca30['react']('❌');client[_0x28b830(0xa3)][_0x28b830(0xbc)](_0x9fdad5[0x1])['then'](_0xa2ca30[_0x28b830(0x80)]('Done!'));}}),client['on'](_0x12eb39(0xc1),async _0x82a2d9=>{const _0x5a2ca0=_0x12eb39;if(_0x82a2d9[_0x5a2ca0(0x7f)]['startsWith'](prefix+_0x5a2ca0(0xb8))){if(!_0x82a2d9[_0x5a2ca0(0xac)][_0x5a2ca0(0x89)][_0x5a2ca0(0x93)](_0x5a2ca0(0x83)))return _0x82a2d9[_0x5a2ca0(0x80)](_0x5a2ca0(0x98));let _0x4e6e63=_0x82a2d9[_0x5a2ca0(0x7f)][_0x5a2ca0(0xc0)]('\x20')[_0x5a2ca0(0x97)]('\x20');if(!_0x4e6e63)return _0x82a2d9[_0x5a2ca0(0xb9)]('❌');await client[_0x5a2ca0(0xa3)][_0x5a2ca0(0x75)](''+_0x4e6e63[0x1])[_0x5a2ca0(0x92)](_0x4917b2=>console[_0x5a2ca0(0xbb)](_0x4917b2)),_0x82a2d9[_0x5a2ca0(0xa0)](_0x5a2ca0(0x86));}}),process['on'](_0x12eb39(0xa9),(_0x270db2,_0x242894)=>{const _0x1f816f=_0x12eb39;console[_0x1f816f(0xbb)](_0x1f816f(0xb0)+_0x242894),console[_0x1f816f(0xbb)](_0x1f816f(0xa6)+_0x270db2);}),process['on'](_0x12eb39(0xb4),(_0x4f1d12,_0x6762b3)=>{const _0x5f12fd=_0x12eb39;console[_0x5f12fd(0xbb)](_0x5f12fd(0x7b)+_0x4f1d12),console['log'](_0x5f12fd(0x76)+_0x6762b3);}),process['on']('uncaughtExceptionMonitor',(_0x4ee5ca,_0xab14cb)=>{const _0x5aa508=_0x12eb39;console[_0x5aa508(0xbb)](_0x4ee5ca),console[_0x5aa508(0xbb)]('Origin:\x20'+_0xab14cb);}),process['on'](_0x12eb39(0x9a),(_0x5049f0,_0x46ccbd,_0x273f9b)=>{const _0x196f69=_0x12eb39;console[_0x196f69(0xbb)](_0x5049f0,_0x46ccbd);}),client['login'](_0x12eb39(0x81));
+const Discord = require('discord.js')
+const client = new Discord.Client({intents: 32767});
+
+const { Player, QueryType, QueueRepeatMode } = require("discord-player");
+const express = require('express');
+const app = express()
+
+app.get('/' , (req,res) => {
+  res.sendStatus(200)
+})
+app.listen(8080)
+const prefix = 'A'
+
+client.on('ready' , () => {
+  console.log(client.user.username)
+  client.user.setActivity("𝑲𝒆𝒆𝒑 𝑸𝒖𝒊𝒆𝒕", {
+  type: "WATCHING", 
+})
+  client.user.setStatus("dnd");
+})
+ player = new Player(client)
+client.on('messageCreate' , async (message) => {
+    if (message.content.startsWith(prefix + 'play' ||prefix + 'p' )){
+        let query = message.content.split(' ').slice(1).join(" ")
+        console.log(query)
+        const queue = player.createQueue(message.guild, {
+            metadata: {
+                channel: message.channel
+            }
+        });
+        try {
+            if (!queue.connection) await queue.connect(message.member.voice.channel);
+        } catch {
+            queue.destroy();
+        }
+        const track = await player.search(query, {
+            requestedBy: message.user
+        }).then(x => x.tracks[0]);
+        if (!track) return await message.reply({ content: `not found!` });
+
+        queue.play(track);
+        console.log(track)
+        return await message.reply({ content: `Loading  **${track.title}**!` });
+    
+    }
+})
+
+
+client.on('messageCreate' , async (message) => {
+    if (message.content.startsWith(prefix + 'stop' || prefix + 'st')){
+       const queue = player.getQueue(message.guild.id);
+        if (!queue || !queue.playing) return  message.reply({ content: 'No music is being played!' });
+        queue.destroy();
+      message.reply('**__DONE__**')
+    }
+})
+
+client.on('messageCreate' , async (message) => {
+  if (message.content.startsWith(prefix + 'np' || prefix + 'nowplaying')){
+    const queue = player.getQueue(message.guild.id);
+    if (!queue || !queue.playing) return message.send({ content: '❌ | No music is being played!' });
+    const progress = queue.createProgressBar();
+    const perc = queue.getPlayerTimestamp();
+
+    message.reply({
+      embeds: [
+          {
+              title: 'Now Playing',
+              description: `🎵 | **${queue.current.title}**! (\`${perc.progress == 'Infinity' ? 'Live' : perc.progress + '%'}\`)`,
+              fields: [
+                  {
+                      name: '\u200b',
+                      value: progress.replace(/ 0:00/g, ' ◉ LIVE')
+                  }
+              ],
+              color: 0xffffff
+          }
+      ]
+  
+})
+  }})
+
+client.on('messageCreate' , async (message) => {
+  if (message.content.startsWith(prefix + "set-name")){
+    // if (!message.member.permissions.has("ADMINISTRATOR")) return message.reply(`You Don't Have Permission.`)
+
+
+    let username = message.content.split(" ").slice(1).join(" ");
+    if (!username) return message.react('❌')
+
+    client.user.setUsername(username).then(
+      message.reply('Done!')
+    )
+
+  }
+})
+
+client.on('messageCreate' , async (message) => {
+  if (message.content.startsWith(prefix + "set-avatar")){
+    let avatar = message.content.split(" ").slice(1).join(" ");
+      console.log(avatar)
+      if (!avatar) return message.react('❌')
+    // if (!message.member.permissions.has("ADMINISTRATOR")) return message.reply(`You Don't Have Permission.`)
+
+
+    await client.user.setAvatar(`${avatar[1]}`).catch((err) => console.log(err))
+    message.reply('__DONE__')
+
+  }
+})
+
+
+process.on("unhandledRejection", (reason, promise) => {
+  console.log("Unhandled Rejection at: " + promise)
+  console.log("Reason: " + reason)
+})
+process.on("uncaughtException", (err, origin) => {
+  console.log("Caught exception: " + err)
+  console.log("Origin: " + origin)
+})
+process.on('uncaughtExceptionMonitor', (err, origin) => {
+  console.log(err);
+  console.log("Origin: " + origin)
+});
+process.on('multipleResolves', (type, promise, reason) => {
+  console.log(type, promise);
+});
+client.on('messageCreate' , async (message) => {
+if (message.content.startsWith(prefix + 'vol')){
+    let num = message.content.split(" ").slice(1).join(" ");
+
+const queue = player.getQueue(message.guild.id);
+        if (!queue || !queue.playing) return  message.reply({ content: '❌ | No music is being played!' });
+        const vol = parseInt(num);
+        if (!vol) return  message.reply({ content: `🎧 | Current volume is **${queue.volume}**%!` });
+        if (vol < 0 || vol > 100) return message.reply({ content: '❌ | Volume range must be 0-100' });
+        const success = queue.setVolume(vol);
+        return  message.reply({
+            content: success ? `✅ | Volume set to **${vol}%**!` : '❌ | Something went wrong!'
+        });
+    } })
+    client.on('messageCreate' , async (message) => {
+        if (message.content.startsWith(prefix + 'skip')){        
+            const queue = player.getQueue(message.guild.id);
+            if (!queue || !queue.playing) return  message.reply({ content: '❌ | No music is being played!' });
+            const currentTrack = queue.current;
+            const success = queue.skip();
+            return  message.reply({
+                content: success ? `✅ | Skipped **${currentTrack}**!` : '❌ | Something went wrong!'
+            });
+            } })
+
+client.login('OTc2MDk4MTIzMDk1MDk3Mzc0.GXlg9x.ZIoUrNvk2BGcbCxnZ5jjKi_CN-1PqJLisvMzmI')
